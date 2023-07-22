@@ -4,8 +4,8 @@ The following Arduino libraries were used in this project. All the used librarie
 Arduino libarary manager.
 
 
-<Adafruit_TCS34725.h>
-<Wire.h>
-<MPU6050_tockn.h>
-<Servo.h>
-<Wire.h>
+*<Adafruit_TCS34725.h>
+*<Wire.h>
+*<MPU6050_tockn.h>
+*<Servo.h>
+*<Wire.h>
