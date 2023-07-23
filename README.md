@@ -16,8 +16,25 @@ This repository contains engineering materials of a self-driven vehicle's model 
 
 
 ## Introduction
-//REVIEW THIS//
-_ This part must be filled by participants with the technical clarifications about the code: which modules the code consists of, how they are related to the electromechanical components of the vehicle, and what is the process to build/compile/upload the code to the vehicle’s controllers._
+* In 20 days, Team Brainiacs has developed a self-driving autonomous car for the 2023 WRO future engineers’ competition. This car uses the principles of computer vision and PID to complete the specified rounds of this challenge. The car uses PID to control its movement and steering while using a color sensor to detect the corners of the playfield and turn accordingly. Moreover, computer vision was implemented using NVIDIA jetson NANO and raspberry PI V2.1 camera to detect the traffic signs and steer the car to complete the whole track.
+  
+* Materials used:
+  
+    - Jetson NANO
+    - Arduino MEGA
+    - Arduino NANO
+    - Raspberry pi V2.1 camera
+    - 1 brushless DC motor
+    - 1 Geared servo motor
+    - 5x 18650 Batteries
+    - L298N Dual H-bridge Motor controller
+    - MPU6050 Gyro sensor
+    - TCS34725 Color sensor
+  
+* Programming Languages Used:
+    - Arduino C++
+    - Python
+
 
 * The code for the self-driving autonomous race robotic car consists of several modules that are related to the electromechanical components of the vehicle. The Jetson Nano module runs the computer vision algorithms that analyze camera data to detect obstacles in the car's path. The Arduino Mega and Arduino Nano modules are responsible for controlling the motors, servos, and sensors that enable the car to move and navigate. The MPU6050 gyroscope sensor is used for PID control, which helps to maintain the car's stability and balance while driving. The TCS34725 color sensor detects colors in the environment, which can be used to help the car navigate.
 
