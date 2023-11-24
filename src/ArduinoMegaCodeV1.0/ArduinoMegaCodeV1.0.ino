@@ -1,12 +1,15 @@
 #include <Wire.h>
 #include <MPU6050_tockn.h>
 #include<Servo.h>
+
 MPU6050 mpu6050(Wire);
 Servo myservo;
+
 long error=0;
 int MP = 3;
 int MN=2;
 int A = 4;
+
 // PID constants
 double Kp = 1.33;   // Proportional gain
 double Ki = 0;   // Integral gain
@@ -16,10 +19,11 @@ long de;
 long Pr;
 int p=0;
 int e=0;
-  int sum =0;
+int sum =0;
 long integral =0 ;
 double setpoint = 0.0;  // Target angle
 int mangle;
+
 void setup() {
   Serial.begin(9600);
   pinMode(9, INPUT);
